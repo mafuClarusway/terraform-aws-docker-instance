@@ -4,7 +4,6 @@ Not intended for production use. It is an example module.
 
 It is just for showing how to create a publish module in Terraform Registry.
 
-
 Usage:
 ```
 provider "aws" {
@@ -12,7 +11,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<github-username>/docker-instance/aws"
-    key_name = "clarusway"
+    source = "mafuClarusway/docker-instance/aws"
+    key_name = "InsertKeyNameHere"
 }
 ```
